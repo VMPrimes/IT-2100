@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ACBFCB4261BCF4D00FEED30 /* Lab_11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCB3261BCF4D00FEED30 /* Lab_11Tests.swift */; };
+		4ACBFCE4261BCFDE00FEED30 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCCF261BCFDD00FEED30 /* DetailView.swift */; };
+		4ACBFCE5261BCFDE00FEED30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD0261BCFDD00FEED30 /* Assets.xcassets */; };
+		4ACBFCE6261BCFDE00FEED30 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD1261BCFDD00FEED30 /* ScrumProgressViewStyle.swift */; };
+		4ACBFCE7261BCFDE00FEED30 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD3261BCFDD00FEED30 /* ding.wav */; };
+		4ACBFCE8261BCFDE00FEED30 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD4261BCFDD00FEED30 /* ScrumsView.swift */; };
+		4ACBFCE9261BCFDE00FEED30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD6261BCFDD00FEED30 /* Preview Assets.xcassets */; };
+		4ACBFCEA261BCFDE00FEED30 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD7261BCFDD00FEED30 /* EditView.swift */; };
+		4ACBFCEB261BCFDE00FEED30 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD8261BCFDD00FEED30 /* ScrumdingerApp.swift */; };
+		4ACBFCEC261BCFDE00FEED30 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCD9261BCFDD00FEED30 /* MeetingView.swift */; };
+		4ACBFCED261BCFDE00FEED30 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCDA261BCFDE00FEED30 /* MeetingHeaderView.swift */; };
+		4ACBFCEE261BCFDE00FEED30 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCDC261BCFDE00FEED30 /* AVPlayer+Ding.swift */; };
+		4ACBFCEF261BCFDE00FEED30 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCDD261BCFDE00FEED30 /* DailyScrum.swift */; };
+		4ACBFCF0261BCFDE00FEED30 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCDE261BCFDE00FEED30 /* ScrumTimer.swift */; };
+		4ACBFCF1261BCFDE00FEED30 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCDF261BCFDE00FEED30 /* Color+Codable.swift */; };
+		4ACBFCF2261BCFDE00FEED30 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCE0261BCFDE00FEED30 /* History.swift */; };
+		4ACBFCF3261BCFDE00FEED30 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCE1261BCFDE00FEED30 /* CardView.swift */; };
+		4ACBFCF4261BCFDE00FEED30 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCE2261BCFDE00FEED30 /* MeetingFooterView.swift */; };
+		4ACBFCF5261BCFDE00FEED30 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBFCE3261BCFDE00FEED30 /* Info.plist */; };
+		4ACBFCFD261BD1AE00FEED30 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBFCFC261BD1AE00FEED30 /* ScrumData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ACBFCB0261BCF4D00FEED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACBFC91261BCF4900FEED30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACBFC98261BCF4900FEED30;
+			remoteInfo = "Lab 11";
+		};
+		4ACBFCBB261BCF4D00FEED30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACBFC91261BCF4900FEED30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACBFC98261BCF4900FEED30;
+			remoteInfo = "Lab 11";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ACBFCB3261BCF4D00FEED30 /* Lab_11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_11Tests.swift; sourceTree = "<group>"; };
+		4ACBFCB5261BCF4D00FEED30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACBFCCF261BCFDD00FEED30 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/DetailView.swift"; sourceTree = "<group>"; };
+		4ACBFCD0261BCFDD00FEED30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/Assets.xcassets"; sourceTree = "<group>"; };
+		4ACBFCD1261BCFDD00FEED30 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumProgressViewStyle.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/ScrumProgressViewStyle.swift"; sourceTree = "<group>"; };
+		4ACBFCD3261BCFDD00FEED30 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		4ACBFCD4261BCFDD00FEED30 /* ScrumsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumsView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/ScrumsView.swift"; sourceTree = "<group>"; };
+		4ACBFCD6261BCFDD00FEED30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ACBFCD7261BCFDD00FEED30 /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/EditView.swift"; sourceTree = "<group>"; };
+		4ACBFCD8261BCFDD00FEED30 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumdingerApp.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/ScrumdingerApp.swift"; sourceTree = "<group>"; };
+		4ACBFCD9261BCFDD00FEED30 /* MeetingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetingView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/MeetingView.swift"; sourceTree = "<group>"; };
+		4ACBFCDA261BCFDE00FEED30 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetingHeaderView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/MeetingHeaderView.swift"; sourceTree = "<group>"; };
+		4ACBFCDC261BCFDE00FEED30 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		4ACBFCDD261BCFDE00FEED30 /* DailyScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		4ACBFCDE261BCFDE00FEED30 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		4ACBFCDF261BCFDE00FEED30 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		4ACBFCE0261BCFDE00FEED30 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		4ACBFCE1261BCFDE00FEED30 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/CardView.swift"; sourceTree = "<group>"; };
+		4ACBFCE2261BCFDE00FEED30 /* MeetingFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetingFooterView.swift; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/MeetingFooterView.swift"; sourceTree = "<group>"; };
+		4ACBFCE3261BCFDE00FEED30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/Info.plist"; sourceTree = "<group>"; };
+		4ACBFCFC261BD1AE00FEED30 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
+		4ACBFD0A261BE87300FEED30 /* Lab 11 - Saving, Loading and Scenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Lab 11 - Saving, Loading and Scenes.app"; path = "/Users/vickieprimes/IT-2100-iOS/Lab 11/build/Debug-iphoneos/Lab 11 - Saving, Loading and Scenes.app"; sourceTree = "<absolute>"; };
+		4ACBFD0B261BE87300FEED30 /* Lab 11 - Saving, Loading and ScenesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Lab 11 - Saving, Loading and ScenesTests.xctest"; path = "/Users/vickieprimes/IT-2100-iOS/Lab 11/build/Debug-iphoneos/Lab 11 - Saving, Loading and ScenesTests.xctest"; sourceTree = "<absolute>"; };
+		4ACBFD0C261BE87300FEED30 /* Lab 11 - Saving, Loading and ScenesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Lab 11 - Saving, Loading and ScenesUITests.xctest"; path = "/Users/vickieprimes/IT-2100-iOS/Lab 11/build/Debug-iphoneos/Lab 11 - Saving, Loading and ScenesUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACBFC96261BCF4900FEED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBFCAC261BCF4D00FEED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBFCB7261BCF4D00FEED30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ACBFC90261BCF4900FEED30 = {
+			isa = PBXGroup;
+			children = (
+				4ACBFCD0261BCFDD00FEED30 /* Assets.xcassets */,
+				4ACBFCE1261BCFDE00FEED30 /* CardView.swift */,
+				4ACBFCCF261BCFDD00FEED30 /* DetailView.swift */,
+				4ACBFCD7261BCFDD00FEED30 /* EditView.swift */,
+				4ACBFCE3261BCFDE00FEED30 /* Info.plist */,
+				4ACBFCE2261BCFDE00FEED30 /* MeetingFooterView.swift */,
+				4ACBFCDA261BCFDE00FEED30 /* MeetingHeaderView.swift */,
+				4ACBFCD9261BCFDD00FEED30 /* MeetingView.swift */,
+				4ACBFCDB261BCFDE00FEED30 /* Models */,
+				4ACBFCD5261BCFDD00FEED30 /* Preview Content */,
+				4ACBFCD2261BCFDD00FEED30 /* Resources */,
+				4ACBFCD8261BCFDD00FEED30 /* ScrumdingerApp.swift */,
+				4ACBFCD1261BCFDD00FEED30 /* ScrumProgressViewStyle.swift */,
+				4ACBFCD4261BCFDD00FEED30 /* ScrumsView.swift */,
+				4ACBFCB2261BCF4D00FEED30 /* Lab 11Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		4ACBFCB2261BCF4D00FEED30 /* Lab 11Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBFCB3261BCF4D00FEED30 /* Lab_11Tests.swift */,
+				4ACBFCB5261BCF4D00FEED30 /* Info.plist */,
+			);
+			path = "Lab 11Tests";
+			sourceTree = "<group>";
+		};
+		4ACBFCD2261BCFDD00FEED30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBFCD3261BCFDD00FEED30 /* ding.wav */,
+			);
+			name = Resources;
+			path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/Resources";
+			sourceTree = "<group>";
+		};
+		4ACBFCD5261BCFDD00FEED30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBFCD6261BCFDD00FEED30 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/Preview Content";
+			sourceTree = "<group>";
+		};
+		4ACBFCDB261BCFDE00FEED30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBFCDC261BCFDE00FEED30 /* AVPlayer+Ding.swift */,
+				4ACBFCDD261BCFDE00FEED30 /* DailyScrum.swift */,
+				4ACBFCDE261BCFDE00FEED30 /* ScrumTimer.swift */,
+				4ACBFCDF261BCFDE00FEED30 /* Color+Codable.swift */,
+				4ACBFCE0261BCFDE00FEED30 /* History.swift */,
+				4ACBFCFC261BD1AE00FEED30 /* ScrumData.swift */,
+			);
+			name = Models;
+			path = "../../Downloads/PersistingData 4/StartingProject/Scrumdinger/Scrumdinger/Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ACBFC98261BCF4900FEED30 /* Lab 11 - Saving, Loading and Scenes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACBFCC3261BCF4D00FEED30 /* Build configuration list for PBXNativeTarget "Lab 11 - Saving, Loading and Scenes" */;
+			buildPhases = (
+				4ACBFC95261BCF4900FEED30 /* Sources */,
+				4ACBFC96261BCF4900FEED30 /* Frameworks */,
+				4ACBFC97261BCF4900FEED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab 11 - Saving, Loading and Scenes";
+			productName = "Lab 11";
+			productReference = 4ACBFD0A261BE87300FEED30 /* Lab 11 - Saving, Loading and Scenes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ACBFCAE261BCF4D00FEED30 /* Lab 11 - Saving, Loading and ScenesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACBFCC6261BCF4D00FEED30 /* Build configuration list for PBXNativeTarget "Lab 11 - Saving, Loading and ScenesTests" */;
+			buildPhases = (
+				4ACBFCAB261BCF4D00FEED30 /* Sources */,
+				4ACBFCAC261BCF4D00FEED30 /* Frameworks */,
+				4ACBFCAD261BCF4D00FEED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACBFCB1261BCF4D00FEED30 /* PBXTargetDependency */,
+			);
+			name = "Lab 11 - Saving, Loading and ScenesTests";
+			productName = "Lab 11Tests";
+			productReference = 4ACBFD0B261BE87300FEED30 /* Lab 11 - Saving, Loading and ScenesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ACBFCB9261BCF4D00FEED30 /* Lab 11 - Saving, Loading and ScenesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACBFCC9261BCF4D00FEED30 /* Build configuration list for PBXNativeTarget "Lab 11 - Saving, Loading and ScenesUITests" */;
+			buildPhases = (
+				4ACBFCB6261BCF4D00FEED30 /* Sources */,
+				4ACBFCB7261BCF4D00FEED30 /* Frameworks */,
+				4ACBFCB8261BCF4D00FEED30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACBFCBC261BCF4D00FEED30 /* PBXTargetDependency */,
+			);
+			name = "Lab 11 - Saving, Loading and ScenesUITests";
+			productName = "Lab 11UITests";
+			productReference = 4ACBFD0C261BE87300FEED30 /* Lab 11 - Saving, Loading and ScenesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACBFC91261BCF4900FEED30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4ACBFC98261BCF4900FEED30 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4ACBFCAE261BCF4D00FEED30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4ACBFC98261BCF4900FEED30;
+					};
+					4ACBFCB9261BCF4D00FEED30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4ACBFC98261BCF4900FEED30;
+					};
+				};
+			};
+			buildConfigurationList = 4ACBFC94261BCF4900FEED30 /* Build configuration list for PBXProject "Lab 11 - Saving, Loading and Scenes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ACBFC90261BCF4900FEED30;
+			productRefGroup = 4ACBFC90261BCF4900FEED30;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACBFC98261BCF4900FEED30 /* Lab 11 - Saving, Loading and Scenes */,
+				4ACBFCAE261BCF4D00FEED30 /* Lab 11 - Saving, Loading and ScenesTests */,
+				4ACBFCB9261BCF4D00FEED30 /* Lab 11 - Saving, Loading and ScenesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACBFC97261BCF4900FEED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBFCE7261BCFDE00FEED30 /* ding.wav in Resources */,
+				4ACBFCE5261BCFDE00FEED30 /* Assets.xcassets in Resources */,
+				4ACBFCE9261BCFDE00FEED30 /* Preview Assets.xcassets in Resources */,
+				4ACBFCF5261BCFDE00FEED30 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBFCAD261BCF4D00FEED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBFCB8261BCF4D00FEED30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ACBFC95261BCF4900FEED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBFCE8261BCFDE00FEED30 /* ScrumsView.swift in Sources */,
+				4ACBFCE4261BCFDE00FEED30 /* DetailView.swift in Sources */,
+				4ACBFCEE261BCFDE00FEED30 /* AVPlayer+Ding.swift in Sources */,
+				4ACBFCEF261BCFDE00FEED30 /* DailyScrum.swift in Sources */,
+				4ACBFCEB261BCFDE00FEED30 /* ScrumdingerApp.swift in Sources */,
+				4ACBFCFD261BD1AE00FEED30 /* ScrumData.swift in Sources */,
+				4ACBFCEA261BCFDE00FEED30 /* EditView.swift in Sources */,
+				4ACBFCE6261BCFDE00FEED30 /* ScrumProgressViewStyle.swift in Sources */,
+				4ACBFCF2261BCFDE00FEED30 /* History.swift in Sources */,
+				4ACBFCF4261BCFDE00FEED30 /* MeetingFooterView.swift in Sources */,
+				4ACBFCF1261BCFDE00FEED30 /* Color+Codable.swift in Sources */,
+				4ACBFCEC261BCFDE00FEED30 /* MeetingView.swift in Sources */,
+				4ACBFCED261BCFDE00FEED30 /* MeetingHeaderView.swift in Sources */,
+				4ACBFCF3261BCFDE00FEED30 /* CardView.swift in Sources */,
+				4ACBFCF0261BCFDE00FEED30 /* ScrumTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBFCAB261BCF4D00FEED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBFCB4261BCF4D00FEED30 /* Lab_11Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBFCB6261BCF4D00FEED30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ACBFCB1261BCF4D00FEED30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACBFC98261BCF4900FEED30 /* Lab 11 - Saving, Loading and Scenes */;
+			targetProxy = 4ACBFCB0261BCF4D00FEED30 /* PBXContainerItemProxy */;
+		};
+		4ACBFCBC261BCF4D00FEED30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACBFC98261BCF4900FEED30 /* Lab 11 - Saving, Loading and Scenes */;
+			targetProxy = 4ACBFCBB261BCF4D00FEED30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ACBFCC1261BCF4D00FEED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ACBFCC2261BCF4D00FEED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACBFCC4261BCF4D00FEED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 11/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ACBFCC5261BCF4D00FEED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 11/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ACBFCC7261BCF4D00FEED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 11Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 11 - Saving, Loading and Scenes.app/Lab 11 - Saving, Loading and Scenes";
+			};
+			name = Debug;
+		};
+		4ACBFCC8261BCF4D00FEED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 11Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 11 - Saving, Loading and Scenes.app/Lab 11 - Saving, Loading and Scenes";
+			};
+			name = Release;
+		};
+		4ACBFCCA261BCF4D00FEED30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 11UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 11";
+			};
+			name = Debug;
+		};
+		4ACBFCCB261BCF4D00FEED30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 11UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 11";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ACBFC94261BCF4900FEED30 /* Build configuration list for PBXProject "Lab 11 - Saving, Loading and Scenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBFCC1261BCF4D00FEED30 /* Debug */,
+				4ACBFCC2261BCF4D00FEED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACBFCC3261BCF4D00FEED30 /* Build configuration list for PBXNativeTarget "Lab 11 - Saving, Loading and Scenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBFCC4261BCF4D00FEED30 /* Debug */,
+				4ACBFCC5261BCF4D00FEED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACBFCC6261BCF4D00FEED30 /* Build configuration list for PBXNativeTarget "Lab 11 - Saving, Loading and ScenesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBFCC7261BCF4D00FEED30 /* Debug */,
+				4ACBFCC8261BCF4D00FEED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACBFCC9261BCF4D00FEED30 /* Build configuration list for PBXNativeTarget "Lab 11 - Saving, Loading and ScenesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBFCCA261BCF4D00FEED30 /* Debug */,
+				4ACBFCCB261BCF4D00FEED30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACBFC91261BCF4900FEED30 /* Project object */;
+}
