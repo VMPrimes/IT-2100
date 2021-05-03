@@ -15,6 +15,8 @@ struct ContentView: View {
            List(sandwiches) { sandwich in
             NavigationLink(destination: Text(sandwich.name)) {
                 Image(sandwich.thumbnailName)
+                    .resizable()
+                    .frame(width: 40.0, height: 40.0)
                   .cornerRadius(8)
             
             VStack(alignment: .leading) {

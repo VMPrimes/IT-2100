@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AE217B42638E2F800A74FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE217B32638E2F800A74FBE /* AppDelegate.swift */; };
+		4AE217B62638E2F800A74FBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE217B52638E2F800A74FBE /* SceneDelegate.swift */; };
+		4AE217B82638E2F800A74FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE217B72638E2F800A74FBE /* ContentView.swift */; };
+		4AE217BA2638E2FD00A74FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE217B92638E2FD00A74FBE /* Assets.xcassets */; };
+		4AE217BD2638E2FD00A74FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE217BC2638E2FD00A74FBE /* Preview Assets.xcassets */; };
+		4AE217C02638E2FD00A74FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE217BE2638E2FD00A74FBE /* LaunchScreen.storyboard */; };
+		4AE217CB2638E2FE00A74FBE /* Lab_15_Simple_State_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE217CA2638E2FE00A74FBE /* Lab_15_Simple_State_ManagementTests.swift */; };
+		4AE217D62638E2FE00A74FBE /* Lab_15_Simple_State_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE217D52638E2FE00A74FBE /* Lab_15_Simple_State_ManagementUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AE217C72638E2FE00A74FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AE217A82638E2F800A74FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE217AF2638E2F800A74FBE;
+			remoteInfo = "Lab 15 Simple State Management";
+		};
+		4AE217D22638E2FE00A74FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AE217A82638E2F800A74FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE217AF2638E2F800A74FBE;
+			remoteInfo = "Lab 15 Simple State Management";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AE217B02638E2F800A74FBE /* Lab 15 Simple State Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab 15 Simple State Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE217B32638E2F800A74FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AE217B52638E2F800A74FBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AE217B72638E2F800A74FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AE217B92638E2FD00A74FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AE217BC2638E2FD00A74FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AE217BF2638E2FD00A74FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AE217C12638E2FD00A74FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE217C62638E2FE00A74FBE /* Lab 15 Simple State ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 15 Simple State ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE217CA2638E2FE00A74FBE /* Lab_15_Simple_State_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_15_Simple_State_ManagementTests.swift; sourceTree = "<group>"; };
+		4AE217CC2638E2FE00A74FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE217D12638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 15 Simple State ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE217D52638E2FE00A74FBE /* Lab_15_Simple_State_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_15_Simple_State_ManagementUITests.swift; sourceTree = "<group>"; };
+		4AE217D72638E2FE00A74FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AE217AD2638E2F800A74FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE217C32638E2FE00A74FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE217CE2638E2FE00A74FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AE217A72638E2F800A74FBE = {
+			isa = PBXGroup;
+			children = (
+				4AE217B22638E2F800A74FBE /* Lab 15 Simple State Management */,
+				4AE217C92638E2FE00A74FBE /* Lab 15 Simple State ManagementTests */,
+				4AE217D42638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests */,
+				4AE217B12638E2F800A74FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AE217B12638E2F800A74FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AE217B02638E2F800A74FBE /* Lab 15 Simple State Management.app */,
+				4AE217C62638E2FE00A74FBE /* Lab 15 Simple State ManagementTests.xctest */,
+				4AE217D12638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AE217B22638E2F800A74FBE /* Lab 15 Simple State Management */ = {
+			isa = PBXGroup;
+			children = (
+				4AE217B32638E2F800A74FBE /* AppDelegate.swift */,
+				4AE217B52638E2F800A74FBE /* SceneDelegate.swift */,
+				4AE217B72638E2F800A74FBE /* ContentView.swift */,
+				4AE217B92638E2FD00A74FBE /* Assets.xcassets */,
+				4AE217BE2638E2FD00A74FBE /* LaunchScreen.storyboard */,
+				4AE217C12638E2FD00A74FBE /* Info.plist */,
+				4AE217BB2638E2FD00A74FBE /* Preview Content */,
+			);
+			path = "Lab 15 Simple State Management";
+			sourceTree = "<group>";
+		};
+		4AE217BB2638E2FD00A74FBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AE217BC2638E2FD00A74FBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AE217C92638E2FE00A74FBE /* Lab 15 Simple State ManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE217CA2638E2FE00A74FBE /* Lab_15_Simple_State_ManagementTests.swift */,
+				4AE217CC2638E2FE00A74FBE /* Info.plist */,
+			);
+			path = "Lab 15 Simple State ManagementTests";
+			sourceTree = "<group>";
+		};
+		4AE217D42638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE217D52638E2FE00A74FBE /* Lab_15_Simple_State_ManagementUITests.swift */,
+				4AE217D72638E2FE00A74FBE /* Info.plist */,
+			);
+			path = "Lab 15 Simple State ManagementUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AE217AF2638E2F800A74FBE /* Lab 15 Simple State Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE217DA2638E2FE00A74FBE /* Build configuration list for PBXNativeTarget "Lab 15 Simple State Management" */;
+			buildPhases = (
+				4AE217AC2638E2F800A74FBE /* Sources */,
+				4AE217AD2638E2F800A74FBE /* Frameworks */,
+				4AE217AE2638E2F800A74FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab 15 Simple State Management";
+			productName = "Lab 15 Simple State Management";
+			productReference = 4AE217B02638E2F800A74FBE /* Lab 15 Simple State Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AE217C52638E2FE00A74FBE /* Lab 15 Simple State ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE217DD2638E2FE00A74FBE /* Build configuration list for PBXNativeTarget "Lab 15 Simple State ManagementTests" */;
+			buildPhases = (
+				4AE217C22638E2FE00A74FBE /* Sources */,
+				4AE217C32638E2FE00A74FBE /* Frameworks */,
+				4AE217C42638E2FE00A74FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE217C82638E2FE00A74FBE /* PBXTargetDependency */,
+			);
+			name = "Lab 15 Simple State ManagementTests";
+			productName = "Lab 15 Simple State ManagementTests";
+			productReference = 4AE217C62638E2FE00A74FBE /* Lab 15 Simple State ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AE217D02638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE217E02638E2FE00A74FBE /* Build configuration list for PBXNativeTarget "Lab 15 Simple State ManagementUITests" */;
+			buildPhases = (
+				4AE217CD2638E2FE00A74FBE /* Sources */,
+				4AE217CE2638E2FE00A74FBE /* Frameworks */,
+				4AE217CF2638E2FE00A74FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE217D32638E2FE00A74FBE /* PBXTargetDependency */,
+			);
+			name = "Lab 15 Simple State ManagementUITests";
+			productName = "Lab 15 Simple State ManagementUITests";
+			productReference = 4AE217D12638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AE217A82638E2F800A74FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4AE217AF2638E2F800A74FBE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4AE217C52638E2FE00A74FBE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4AE217AF2638E2F800A74FBE;
+					};
+					4AE217D02638E2FE00A74FBE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4AE217AF2638E2F800A74FBE;
+					};
+				};
+			};
+			buildConfigurationList = 4AE217AB2638E2F800A74FBE /* Build configuration list for PBXProject "Lab 15 Simple State Management" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AE217A72638E2F800A74FBE;
+			productRefGroup = 4AE217B12638E2F800A74FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AE217AF2638E2F800A74FBE /* Lab 15 Simple State Management */,
+				4AE217C52638E2FE00A74FBE /* Lab 15 Simple State ManagementTests */,
+				4AE217D02638E2FE00A74FBE /* Lab 15 Simple State ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AE217AE2638E2F800A74FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE217C02638E2FD00A74FBE /* LaunchScreen.storyboard in Resources */,
+				4AE217BD2638E2FD00A74FBE /* Preview Assets.xcassets in Resources */,
+				4AE217BA2638E2FD00A74FBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE217C42638E2FE00A74FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE217CF2638E2FE00A74FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AE217AC2638E2F800A74FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE217B42638E2F800A74FBE /* AppDelegate.swift in Sources */,
+				4AE217B62638E2F800A74FBE /* SceneDelegate.swift in Sources */,
+				4AE217B82638E2F800A74FBE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE217C22638E2FE00A74FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE217CB2638E2FE00A74FBE /* Lab_15_Simple_State_ManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE217CD2638E2FE00A74FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE217D62638E2FE00A74FBE /* Lab_15_Simple_State_ManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AE217C82638E2FE00A74FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AE217AF2638E2F800A74FBE /* Lab 15 Simple State Management */;
+			targetProxy = 4AE217C72638E2FE00A74FBE /* PBXContainerItemProxy */;
+		};
+		4AE217D32638E2FE00A74FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AE217AF2638E2F800A74FBE /* Lab 15 Simple State Management */;
+			targetProxy = 4AE217D22638E2FE00A74FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AE217BE2638E2FD00A74FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE217BF2638E2FD00A74FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AE217D82638E2FE00A74FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AE217D92638E2FE00A74FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AE217DB2638E2FE00A74FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab 15 Simple State Management/Preview Content\"";
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lab 15 Simple State Management/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-15-Simple-State-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AE217DC2638E2FE00A74FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab 15 Simple State Management/Preview Content\"";
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lab 15 Simple State Management/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-15-Simple-State-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AE217DE2638E2FE00A74FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 15 Simple State ManagementTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-15-Simple-State-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 15 Simple State Management.app/Lab 15 Simple State Management";
+			};
+			name = Debug;
+		};
+		4AE217DF2638E2FE00A74FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 15 Simple State ManagementTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-15-Simple-State-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 15 Simple State Management.app/Lab 15 Simple State Management";
+			};
+			name = Release;
+		};
+		4AE217E12638E2FE00A74FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 15 Simple State ManagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-15-Simple-State-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 15 Simple State Management";
+			};
+			name = Debug;
+		};
+		4AE217E22638E2FE00A74FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH5HP3Z8CG;
+				INFOPLIST_FILE = "Lab 15 Simple State ManagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.tric.Lab-15-Simple-State-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 15 Simple State Management";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AE217AB2638E2F800A74FBE /* Build configuration list for PBXProject "Lab 15 Simple State Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE217D82638E2FE00A74FBE /* Debug */,
+				4AE217D92638E2FE00A74FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE217DA2638E2FE00A74FBE /* Build configuration list for PBXNativeTarget "Lab 15 Simple State Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE217DB2638E2FE00A74FBE /* Debug */,
+				4AE217DC2638E2FE00A74FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE217DD2638E2FE00A74FBE /* Build configuration list for PBXNativeTarget "Lab 15 Simple State ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE217DE2638E2FE00A74FBE /* Debug */,
+				4AE217DF2638E2FE00A74FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE217E02638E2FE00A74FBE /* Build configuration list for PBXNativeTarget "Lab 15 Simple State ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE217E12638E2FE00A74FBE /* Debug */,
+				4AE217E22638E2FE00A74FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AE217A82638E2F800A74FBE /* Project object */;
+}
